@@ -1,0 +1,84 @@
+﻿@using Football.Models;
+@model Football.Models.Team;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meata name="viewport" content="width=device-width" />
+    <title> Best teams </title>
+</head>
+
+<body>
+
+    <div>
+        <h1>The best Attaking teams in theirs leagues</h1>
+
+        <h2> The best team in 1 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestAttakingTeam1.Name <br>
+                Goals: @ViewBag.BestAttakingTeam1.Goals <br>
+                Missed: @ViewBag.BestAttakingTeam1.Missed <br>
+            </h3>
+        </div>
+        <hr>
+        <h2> The best team in 2 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestAttakingTeam2.Name <br>
+                Goals: @ViewBag.BestAttakingTeam2.Goals <br>
+                Missed: @ViewBag.BestAttakingTeam2.Missed <br>
+            </h3>
+        </div>
+        <hr>
+        <h2> The best team in 3 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestAttakingTeam3.Name <br>
+                Goals: @ViewBag.BestAttakingTeam3.Goals <br>
+                Missed: @ViewBag.BestAttakingTeam3.Missed <br>
+            </h3>
+        </div>
+        <hr>
+
+    </div>
+
+    <div>
+        <h1>The best Protecting teams in theirs leagues</h1>
+
+        <h2> The best team in 1 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestProtectingTeam1.Name <br>
+                Goals: @ViewBag.BestProtectingTeam1.Goals <br>
+                Missed: @ViewBag.BestProtectingTeam1.Missed <br>
+            </h3>
+        </div>
+        <hr>
+        <h2> The best team in 2 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestProtectingTeam2.Name <br>
+                Goals: @ViewBag.BestProtectingTeam2.Goals <br>
+                Missed: @ViewBag.BestProtectingTeam2.Missed <br>
+            </h3>
+        </div>
+        <hr>
+        <h2> The best team in 3 League </h2>
+        <div>
+            <h3>
+                Name: @ViewBag.BestProtectingTeam3.Name <br>
+                Goals: @ViewBag.BestProtectingTeam3.Goals <br>
+                Missed: @ViewBag.BestProtectingTeam3.Missed <br>
+            </h3>
+        </div>
+        <hr>
+
+    </div>
+
+</body>
+</html>
